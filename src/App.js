@@ -1,7 +1,6 @@
 import React from "react";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Project from "./components/Project";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
@@ -12,12 +11,9 @@ function App() {
     <Router>
       <div>
         <Header />
-        {/* <Project>
           <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolio" component={Portfolio} />
-        </Project> */}
         <Footer />
       </div>
     </Router>
