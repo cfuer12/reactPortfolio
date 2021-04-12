@@ -1,8 +1,18 @@
-.navbar-brand {
-    font-family: 'Quicksand', sans-serif;
-    text-align: right;
-  }
+#myName {
+  font-size: 40px;
+  text-align: right;
+  padding: 5px;
+  font-family: "Quicksand", sans-serif;
+  text-shadow: 2px 2px black;
+  color: white;
+}
 
 #portBtn {
-  margin-right: 10px;
+  text-align: right;
+  color: silver;
+  text-shadow: 2px 2px black;
+}
+
+.Link {
+  font-size: 35px;
 }

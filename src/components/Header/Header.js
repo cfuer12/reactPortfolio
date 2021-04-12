@@ -6,20 +6,22 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <Link className="navbar-brand" to="/">
+        <div id="myName">
         Carlos Fuerte Gaspar
+        </div>
       </Link>
       <div>
         <Link to="/portfolio">
           <button
             type="button"
             id="portBtn"
-            className="btn btn-lg text-light"
+            className="btn btn-lg"
           >
             Portfolio
           </button>
         </Link>
         <Link to="/contact">
-          <button type="button" id="portBtn" className="btn btn-lg text-light">
+          <button type="button" id="portBtn" className="btn btn-lg">
             Contact
           </button>
         </Link>
