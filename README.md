@@ -25,4 +25,4 @@ Updating your portfolio and other materials to build toward being employer compe
 
   ## Deployment
   Deployed Site:
-  https://blooming-reaches-75504.herokuapp.com/
+  https://gentle-beach-02520.herokuapp.com/
