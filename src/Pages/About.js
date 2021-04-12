@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <Image backgroundImage="https://mdbootstrap.com/img/Photos/Others/images/91.jpg">
-        <Container >
+        <Container>
           <h1 className="top">About</h1>
         </Container>
         <Container id="aboutbox">
